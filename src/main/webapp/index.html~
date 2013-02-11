@@ -1,0 +1,6 @@
+<lift:surround with="default" at="content"> 
+    <h2>Your Comet Actor !! </h2>
+    <lift:comet type="DiscActor" name="Other"> 
+        Current Time: <disc:message>Here is your latest update !!!!!!!11</disc:message> 
+    </lift:comet>  
+</lift:surround>
